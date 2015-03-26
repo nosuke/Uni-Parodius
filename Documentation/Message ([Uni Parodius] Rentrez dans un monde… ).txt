@@ -1,0 +1,25 @@
+Où se cotoient les vautours avec des chapeaux verts magiques s'ouvrant tout seul, les vaisseaux spatiaux, les planètes pleines de moaï, les explosions à base de fruits et de pingouins, les panneaux de signalisation encourageant le retour en arrière et… les pandas en tutu rose s'entraînant à faire des pointes !
+
+Le jeu a été réalisé sur Unity (+ langage C#) avec des ressources graphiques sorties de Parodius (parodie de Gradius réalisée par Konami eux-mêmes !) et des ressources sonores venant de trois sources différentes (le jeu EarthBound, le compositeur Kitsune² et… moi-même (pour quelques sonorités)). De plus, un tutoriel Internet a beaucoup aidé à la bonne réalisation de ce laboratoire, qui m'a permis de mieux percevoir le fonctionnement global d'Unity et d'apprendre beaucoup de choses au sujet du logiciel.
+
+
+Les six points de la consigne ont été respectés :
+
+1) Le jeu se joue avec un avatar contrôlé par le joueur, le vaisseau spatial de Gradius repris dans Parodius, le Vic Viper. Il se joue avec les quatre flèches directionnelles et les boutons CTRL (arme 1) et ALT (arme 2). De plus, il est impossible de faire sortir le vaisseau de l'écran, des limites ayant été intégrées via code lors de la réalisation du jeu.
+
+2) Le vaisseau peut lancer deux types de projectiles : l'arme 1 sert à envoyer des munitions bleues, rapides et faibles ; l'arme 2 sert à envoyer des munitions vertes, lentes et puissantes.
+
+3) La musique "Take Off And Land" de Kitsune² a été utilisée comme musique de fond et celle-ci joue en boucle.
+
+4) Chacun des trois projectiles a un son différent des autres. En effet, le joueur peut envoyer deux projectiles différents et les ennemis peuvent en envoyer un troisième type également différent des autres types de projectiles. De plus, l'explosion du joueur ne produit pas le même bruit que l'explosion d'un ennemi. Il y a donc en tout cinq sons différents.
+
+5) Un système d'explosion a été réalisé à partir d'un système de particules. Quatre particules différentes servent à afficher le mélange "fraise-kiwi-pingouin-feu" résultant d'une explosion.
+
+6) Un effet de parallax a été utilisé. Les deux systèmes ont été combinés, ce qui fait que les personnages bougent (y compris le joueur) ainsi que les différentes couches du décor (il y en a trois, ce qui permet de faire bouger les objets à des vitesses différentes) et cela de manière infinie.
+
+En dehors de ces six points, quelques animations ont également été réalisées. Également, les deux types d'ennemis ne possèdent pas le même niveau de robustesse. L'un nécessite un seul dégât pour mourir ; alors que l'autre en nécessite cinq. Enfin, il est possible de mourir de deux façons : soit en se faisant toucher par une munition adverse, soit en touchant un adversaire.
+
+
+Vous trouverez le résultat en pièce jointe, sous forme de page HTML.
+
+Il est nécessaire de télécharger les deux pièces jointes pour pouvoir jouer au jeu.
